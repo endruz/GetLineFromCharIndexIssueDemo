@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 using System.Windows.Forms;
 
 namespace IssueDemoWithDotnetFramework4._8
@@ -61,7 +54,6 @@ namespace IssueDemoWithDotnetFramework4._8
                     var index = rtb.Text.IndexOf(sb.Text);
                     var line = rtb.GetLineFromCharIndex(index);
                     var text = $"the index of '{sb.Text}' is {index}\nthe line num of '{sb.Text}' is {line}\nrtb.Text:\n{rtb.Text}";
-                    //var text = "the index of '" + sb.Text + "' is " + index + "\nthe line num of '" + sb.Text + "' is " + line + "\nrtb.Text:\n" + rtb.Text;
 
                     MessageBox.Show(text, "MessageBox");
                 }
