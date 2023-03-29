@@ -2,7 +2,9 @@
 
 This is a demo of `GetLineFromCharIndex()` issue.
 
-The link to the report is [this](https://developercommunity.visualstudio.com/t/GetLineFromCharIndex-return-an-error-res/10314554?ref=native&refTime=1679278280356&refUserId=7f97d742-559b-6229-82cb-d5d0f4d515ab).
+The link to the report is [this](https://developercommunity.visualstudio.com/t/GetLineFromCharIndex-return-an-error-res/10314554).
+
+Moved this [issue](https://github.com/dotnet/winforms/issues/8885) to [dotnet/winforms](https://github.com/dotnet/winforms).
 
 ## Issue
 
